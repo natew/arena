@@ -2,12 +2,16 @@ Hey,
 
 Setup for flint
 
-1. Install node (5.1 is stable atm) - https://nodejs.org/en/
+1. Install brew
+  - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 2. Install git
-  2a. Install http://brew.sh/ `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  2b. `brew install git`
-3. See instructions on flint in chat
+  - `brew install git`
+3. Install nvm + node
+  - `brew install nvm`
+  - `nvm install 5`
+4. Install flint (see site)
 4. Install surge
+  - `npm install -g surge`
 
 Instructions to deploy your app (in terminal)
 
